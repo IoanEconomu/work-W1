@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+                    
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+                    
+/* Riadattamento logo */
+#Logo-Project {
+    display: block;
+    margin-right: auto;
+    width: 200px;
+    margin-left: auto;
+    align-items: center;
+
+    
+}
+            /* Cambio font e centramento di tutto il margin */
+body{
+    font-family: "Montserrat", sans-serif;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    }
+
+             /*Edit della scritta sotto il titolo  */
+
+.Sotto-Titolo{
+    font-family: "Montserrat", sans-serif;
+    color: rgb(33, 71, 63);
+    display: inline-block;
+    text-align: center;
+    width: 95%;
+    margin: 20px;
+    padding: 20px;
+}
+                /* Cambio font e posizionamento centrale del Titolo */
+h1 {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 30px; 
+    text-align: center;   
+}
+
+/* Edit foto focaccia */
+
+#IMG-FOCACCIA{
+    width: 500px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+}
+
+            /* Edit dei crediti della foto */
+#credits{
+    display: flex;
+    justify-content: center;
+    color: rgb(150, 151, 151);
+    font-size: 15px;
+}
+
+                    /* Cambiamento colore e posizionamento delle due scritte sotto con riporto ad un "link" */
+#underphoto {
+font-size: 13px;
+color: rgb(207, 41, 41);
+}
+
+#underphoto-link{
+    margin: 0;
+    color: rgb(42, 101, 169);
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 12px;
+}
+                /* Fake link */
+#last-link{
+    color: rgb(42, 101, 169);
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+                        /* Edit delle liste con spazi e direzione */
+.ulist{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 13px;
+}
+                        /* Edit paragrafo di "Method" */
+#Method-Script{
+    font-size: 13px
+}
+
+                    /* Edit font-weighgt degli h3 */
+h3{
+    font-weight: 400;
+}
+
+
+
